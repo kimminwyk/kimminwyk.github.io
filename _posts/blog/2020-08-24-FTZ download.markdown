@@ -11,7 +11,7 @@ categories: blog
 
 __ftz 설치__
 
-[hackerschool_ftz](https://drive.google.com/file/d/1krZs8e6QG_l_mxMI3eCY11F-lgb12HLb/view)
+[link download : hackerschool_ftz](https://drive.google.com/file/d/1krZs8e6QG_l_mxMI3eCY11F-lgb12HLb/view)
 
 __가상머신 다운로드(vmware player)__
 
@@ -21,7 +21,7 @@ __가상머신 다운로드(vmware player)__
 	
 ftz.zip 압축풀고 가상머신 적용하기 위해서 Vmware_Rdehat_9_FTZ.zip 를 압축 해제해준다.
 
-![vmware_zip](/blog_img/zip.png)
+![link download : vmware_zip](/blog_img/zip.png)
 
 vmware 및 가상머신을 설치에 완료했다면 실행을 한 다음  
 

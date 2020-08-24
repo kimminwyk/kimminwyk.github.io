@@ -10,10 +10,10 @@ categories: blog
 + 1. ftz 다운로드하기
 
 __ftz 설치__
-[hackerschool_ftz](https://drive.google.com/file/d/1krZs8e6QG_l_mxMI3eCY11F-lgb12HLb/view,hackerschool_ftz)
+[hackerschool_ftz](https://drive.google.com/file/d/1krZs8e6QG_l_mxMI3eCY11F-lgb12HLb/view)
 
 __가상머신 다운로드(vmware player)__
-[hackerschool_ftz](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html,vmware_download)
+[hackerschool_ftz](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)
 
 + 2. ftz 로컬에 실행하기
 	

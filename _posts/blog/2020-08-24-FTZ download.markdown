@@ -15,13 +15,13 @@ __ftz 설치__
 
 __가상머신 다운로드(vmware player)__
 
-[vmware_player](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)
+[link download : vmware_player](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)
 
 + 2. ftz 로컬에 실행하기
 	
 ftz.zip 압축풀고 가상머신 적용하기 위해서 Vmware_Rdehat_9_FTZ.zip 를 압축 해제해준다.
 
-![link download : vmware_zip](/blog_img/zip.png)
+![vmware_zip](/blog_img/zip.png)
 
 vmware 및 가상머신을 설치에 완료했다면 실행을 한 다음  
 

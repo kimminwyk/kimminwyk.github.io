@@ -15,7 +15,7 @@ __ftz 설치__
 
 __가상머신 다운로드(vmware player)__
 
-[hackerschool_ftz](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)
+[vmware_player](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)
 
 + 2. ftz 로컬에 실행하기
 	

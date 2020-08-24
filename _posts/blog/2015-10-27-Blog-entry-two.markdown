@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Blog entry two"
-date:   2015-10-27 18:11:16
+title:  "첫 블로그 글"
+date:   2020-08-24 11:03
 categories: blog
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget libero vel turpis eleifend convallis vel vitae est. Suspendisse mattis ut nulla dapibus ultricies. Suspendisse feugiat felis mi, sit amet pharetra massa volutpat sit amet. Morbi gravida, libero sit amet lacinia tristique, ipsum lacus fermentum eros, ut sollicitudin lacus massa ut leo. In quis urna eu lorem sagittis posuere. Pellentesque tempus consequat urna. Pellentesque blandit elit ac nulla semper vestibulum. Quisque ultrices vestibulum nisi, nec rhoncus est viverra eget. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+안녕하세요 김민욱입니다.
 
-Suspendisse egestas sit amet tellus non bibendum. Donec a pellentesque elit. Donec eu ex nec urna semper dignissim non eget magna. Maecenas facilisis nunc eu mi auctor eleifend. Praesent ut sollicitudin ligula, dignissim consectetur purus. Pellentesque sed ligula sapien. Ut non placerat risus. Aliquam posuere, odio ut semper hendrerit, lectus leo maximus orci, vel condimentum tortor ipsum id lacus. Sed lacinia magna nec tortor sollicitudin, ut tempor mi pretium. In in lacus sed mi aliquet scelerisque. Maecenas nisl mauris, euismod ac ultrices vel, molestie eu massa. Phasellus maximus ultrices facilisis. Integer imperdiet ut felis ac tempor. Pellentesque auctor turpis at turpis cursus consequat. Quisque eget euismod elit, et varius justo. Maecenas porttitor lobortis sem sit amet lacinia.
-<img src="https://img.animalplanet.co.kr/news/2020/06/14/700/0l92in11934l0e7qaw3z.jpg">
-Integer bibendum enim nec neque vulputate, in commodo elit mollis. Proin convallis, justo ac ornare porta, velit mauris tristique sapien, quis egestas nisl nisi in mi. Mauris vulputate orci a nulla eleifend malesuada. Aenean eget dictum risus, at semper ligula. Donec sit amet sodales ante. In hac habitasse platea dictumst. Praesent sagittis ipsum sem, nec pulvinar ante semper et. Pellentesque felis ante, posuere in placerat vitae, mollis quis est. Duis at risus et mi eleifend condimentum id ut turpis. Quisque rhoncus tristique felis sit amet convallis. Praesent ornare, lorem sed cursus facilisis, quam velit posuere massa, in congue mi nisl vel lectus. Nullam mi nisl, iaculis eu ornare ut, faucibus quis odio. Aliquam dapibus purus sed libero pretium congue. Nullam convallis eros eu cursus vehicula. Proin facilisis tempor lorem, nec varius ante luctus dapibus. Cras ornare eget tortor eu molestie.
+현재 세명컴퓨터고등학교 재학중이고
 
-Praesent porttitor risus elit, ac dignissim lorem auctor at. Donec viverra metus et leo congue semper. Vestibulum in massa vitae mauris imperdiet tincidunt. Nullam congue felis massa, et ultrices ipsum imperdiet finibus. Aenean pulvinar enim a congue viverra. Phasellus maximus augue nec eleifend dapibus. Nulla sit amet nulla nec sem venenatis auctor ut sit amet leo. Sed interdum, lectus in dictum condimentum, enim nisi mollis libero, id rhoncus lectus urna et mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vehicula bibendum justo vehicula efficitur. Sed in accumsan orci, at finibus diam. Morbi nibh nulla, iaculis at nibh et, gravida dapibus dui. Morbi suscipit bibendum nisl, et pulvinar neque pellentesque sed.
+공부하고있는 분야는 웹, 웹해킹 이며
 
-Ut mattis sem a nunc maximus pulvinar. Morbi blandit nec velit vel dignissim. Suspendisse congue congue pharetra. Cras dolor nibh, congue eu libero ut, porttitor porta metus. Morbi a porta ex. Nulla eget nisl eu turpis convallis sollicitudin. Curabitur varius tellus in metus aliquam tincidunt. Aliquam condimentum tempor sodales. In aliquet dolor gravida arcu ultrices, eu cursus quam feugiat. Nunc auctor, nisi id pellentesque venenatis, diam sapien laoreet ante, nec tempus tortor mi ultrices ligula. Donec a felis sed quam convallis ultricies. Praesent ut arcu eget lectus gravida molestie. Curabitur suscipit nisi enim, ut efficitur enim congue nec. Vestibulum egestas finibus nunc, sit amet lacinia sem sodales ac. Quisque dui felis, mattis id mauris eu, tempus volutpat arcu. Quisque a volutpat ligula, in sagittis metus.
+현재 알고있는 언어는 html,css,js,php,mysql,c,python 입니다.

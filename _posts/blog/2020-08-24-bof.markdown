@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "pwn buffer overFlow"
+title:  "Pwn buffer overFlow"
 date:   2020-08-24 16:24
 categories: blog
 ---
 
 ### Buffer OverFlow(BOF)
 
-##### buffer overflow(버퍼오버플로) : C,C++ 에서 버퍼에 입력받았을 때 이 해당 버퍼가 흘러넘쳐 다른 변수 또는 메모리를 덮어 씌우게 되는 버그이다.
+##### Buffer overflow(버퍼오버플로) : C,C++ 에서 버퍼에 입력받았을 때 이 해당 버퍼가 흘러넘쳐 다른 변수 또는 메모리를 덮어 씌우게 되는 버그이다.
 
 ##### Languages ​​vulnerable to buffer overflow : C / C++
 
-##### buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
+##### Buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
 
-##### buffer OverFlow vulnerability function (버퍼오버플로우에 취약한 함수)
+##### Buffer OverFlow vulnerability function (버퍼오버플로우에 취약한 함수)
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
@@ -27,7 +27,7 @@ categories: blog
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
-##### 등의 buffer OverFlow에 취약점 함수가 있다.
+##### 등의 Buffer OverFlow에 취약점 함수가 있다.
 
 ##### How to secure coding? (버퍼오버플로우에 취약한 함수 시큐어코딩)
 

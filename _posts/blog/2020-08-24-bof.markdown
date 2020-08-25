@@ -11,7 +11,7 @@ categories: blog
 
 ##### buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
 
-##### buffer weakness function 
+##### buffer vulnerability function 
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 

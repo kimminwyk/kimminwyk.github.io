@@ -7,9 +7,25 @@ categories: blog
 
 ### Buffer OverFlow(BOF)
 
-#### buffer overflow(버퍼오버플로) : C,C++ 에서 버퍼에 입력받았을 때 이 해당 버퍼가 흘러넘쳐 다른 변수 또는 메모리를 덮어 씌우게 되는 버그이다.
+##### buffer overflow(버퍼오버플로) : C,C++ 에서 버퍼에 입력받았을 때 이 해당 버퍼가 흘러넘쳐 다른 변수 또는 메모리를 덮어 씌우게 되는 버그이다.
 
-#### buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
+##### buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
+
+###### buffer weakness function 
+
+##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+##### gets(char \*s)
+
+##### scanf(const char \*format, ...)
+
+##### strcpy(char \*dest, const char \*src)
+
+##### strcat(char \*dest, const char \*src)
+
+##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+###### 등의 buffer OverFlow에 취약점 함수가 있다.
 
 ###### 예)
 

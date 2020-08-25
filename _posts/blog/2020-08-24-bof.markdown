@@ -11,7 +11,7 @@ categories: blog
 
 ##### buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
 
-###### buffer weakness function 
+##### buffer weakness function 
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
@@ -25,7 +25,7 @@ categories: blog
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
-###### 등의 buffer OverFlow에 취약점 함수가 있다.
+##### 등의 buffer OverFlow에 취약점 함수가 있다.
 
 ###### 예)
 

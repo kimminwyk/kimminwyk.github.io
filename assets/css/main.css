@@ -1824,7 +1824,7 @@ form label span {
         max-width: 650px;
     }
     .blurb-blog {
-        font-size: 22px;
+        /*font-size: 22px;*/
         font-weight: 30;
     }
     .honeycombpic {

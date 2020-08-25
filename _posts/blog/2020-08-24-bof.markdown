@@ -13,7 +13,7 @@ categories: blog
 
 ##### buffer : buffer는 데이터를 보관하는 메모리의 영억이다.
 
-##### buffer vulnerability function 
+##### buffer OverFlow vulnerability function (버퍼오버플로우에 취약한 함수)
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
@@ -29,7 +29,7 @@ categories: blog
 
 ##### 등의 buffer OverFlow에 취약점 함수가 있다.
 
-##### How to secure coding?
+##### How to secure coding? (버퍼오버플로우에 취약한 함수 시큐어코딩)
 
 ##### ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 

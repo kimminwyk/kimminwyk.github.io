@@ -82,3 +82,5 @@ hello 라는 변수에서는 a 라는 문자가 꽉차게 되버리고 버퍼에
 ![bof_scanf](/blog_img/scanf_bof.png)
 
 ![scanf_value](/blog_img/injection.png)
+
+##### 이상 buffer overflow가 무엇인지 살펴보았다. 

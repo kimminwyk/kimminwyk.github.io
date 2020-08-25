@@ -5,4 +5,24 @@ date:   2020-08-24 16:24
 categories: blog
 ---
 
-### Buffer OverFlow
+### Buffer OverFlow(BOF)
+
+#### buffer overflow(버퍼오버플로) : C,C++ 에서 버퍼에 입력받았을 때 이 해당 버퍼가 흘러넘쳐 다른 변수 또는 메모리를 덮어 씌우게 되는 버그이다.
+
+예를들어 C언어에서 char hello[7]; 이런식으로 선언한 다음 고의로 a 문자를 10번 입력하면
+
+hello 라는 변수에서는 a 라는 문자가 꽉차게 되버리고 버퍼에는 a 가 3개 남게 되는것이다.
+
+근데 만약에 hello 변수 선언한 다음 world 라는 변수를 만들게 되버리면 world 변수에는 "aaa"
+
+이런식으로 남게 되는것이다.
+
+![buffer](/blog_img/buffer_test.png)
+
+이런식으로 c언어에서 이렇게 변수 선언과 입력을 받은다음에 world 변수를 출력해보았다.
+
+![bof_test](/blog_img/scanf.png)
+
+위 사진처럼 a 라는것을 10번 입력하고 world 변수를 출력 결과를 보니 aaa 라는것이 버퍼에 남게되면서 world 변수에 덮어버리게 되는것이다.
+
+![hello_world](/blog_img/hello_world.png)

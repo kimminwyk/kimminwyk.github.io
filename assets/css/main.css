@@ -1503,7 +1503,7 @@ footer .lockup a:hover {
     }
     .cd-timeline-content p {
         font-size: 16px;
-        font-size: 1rem;
+        /*font-size: 1rem;*/
     }
     .cd-timeline-content .cd-read-more,
     .cd-timeline-content .cd-date {

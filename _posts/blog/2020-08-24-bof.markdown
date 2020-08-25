@@ -4,25 +4,5 @@ title:  "pwn buffer overFlow"
 date:   2020-08-24 16:24
 categories: blog
 ---
-<h1 style="font-size:10px;">hello h1</h1>
-<h1 style="font-size:25px;">hello h1</h1>
-<h1 style="font-size:30px;">hello h1</h1>
-<h1 style="font-size:35px;">hello h1</h1>
 
-
-This is an H1
-=============
-
-This is an H2
--------------
-
-
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-
-~~cancelline~~
+# Buffer OverFlow

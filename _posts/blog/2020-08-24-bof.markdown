@@ -45,6 +45,14 @@ hello 라는 변수에서는 a 라는 문자가 꽉차게 되버리고 버퍼에
 
 위 사진처럼 a 라는것을 10번 입력하고 world 변수를 출력 결과를 보니 aaa 라는것이 버퍼에 남게되면서 world 변수에 덮어버리게 되는것이다.
 
-![bof_scanf](/blog_img/scanf_bof.png)
+###### 밑의 사진처럼 변수들의 배열 공간이 각각 생기게 되는것이다.
 
 ![hello_world](/blog_img/null.png)
+
+###### 그리고 a 문자를 10번 입력하면서 hello 의 변수 공간에는 꽉 채우게 되고 
+
+###### world 변수에 버퍼에의해 덮어지게된다.
+
+![bof_scanf](/blog_img/scanf_bof.png)
+
+![scanf_value](/blog_img/injection.png)

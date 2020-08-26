@@ -19,9 +19,9 @@ __memory heap__
 
 __memory stack__
 
-```cpp
-
 #### file consloe_test.c
+
+```cpp
 
 #include "code.h"
 #include "function.h"
@@ -59,9 +59,9 @@ int main()
 
 ```
 
-```cpp
-
 #### file function.h
+
+```cpp
 
 int sum(int a, int b)
 {
@@ -70,9 +70,9 @@ int sum(int a, int b)
 
 ```
 
-```cpp
-
 #### file code.h
+
+```cpp
 
 #include <stdio.h>
 

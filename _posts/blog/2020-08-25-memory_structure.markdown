@@ -22,7 +22,6 @@ __memory stack__
 #### file consloe_test.c
 
 ```cpp
-
 #include "code.h"
 #include "function.h"
 
@@ -56,24 +55,20 @@ int main()
 
 	printf("type(static int) ->	0x%X\n", &main_variable);
 }
-
 ```
 
 #### file function.h
 
 ```cpp
-
 int sum(int a, int b)
 {
 	return a + b;
 }
-
 ```
 
 #### file code.h
 
 ```cpp
-
 #include <stdio.h>
 
 extern int sum(int a, int b);

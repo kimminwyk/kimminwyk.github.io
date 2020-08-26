@@ -6,7 +6,40 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+/*
+language color add
+*/
 
+.cp{
+    color:#ff4545;
+}
+.k{
+    color:#ff4545;
+}
+.kt{
+    color:#42d0ff;
+}
+.n{
+    color:#ffffff;
+}
+.o{
+    color:#ffffff;
+}
+.mi{
+    color:#ae00ff;
+}
+.p{
+    color:#ffffff;
+}
+.nf{
+    color:#62de49;
+}
+.s{
+    color:#fdff96;
+}
+.se{
+    color:#ae00ff;
+}
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
 html {
     font-family: sans-serif;

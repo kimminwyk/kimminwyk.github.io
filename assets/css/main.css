@@ -41,6 +41,10 @@ language color add
 .se{
     color:#ae00ff;
 }
+.highlight{
+    font-weight: 500px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
 html {
     font-family: sans-serif;

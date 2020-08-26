@@ -8,43 +8,18 @@
  */
 /*
 language color add
-*/
 
-.cp, .k{
-    color:#ff4545;
-}
-/*
-.k{
-    color:#ff4545;
-}
+.k{color:#ff4545;}
+.o{color:#000000;}
 */
-.kt{
-    color:#00a2ff;
-    font-style: italic;
-}
-.n{
-    color:#3b3b3b;
-}
-/*
-.o{
-    color:#000000;
-}
-*/
-.mi{
-    color:#ae00ff;
-}
-.p, .o{
-    color:#000000;
-}
-.nf{
-    color:#0400ff;
-}
-.s{
-    color:#de5500;
-}
-.se{
-    color:#ae00ff;
-}
+.cp, .k{color:#ff4545;}
+.kt{color:#00a2ff;font-style: italic;}
+.n{color:#3b3b3b;}
+.mi{color:#ae00ff;}
+.p, .o{color:#000000;}
+.nf{color:#0400ff;}
+.s{color:#de5500;}
+.se{color:#ae00ff;}
 
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
 html {
@@ -1291,7 +1266,7 @@ footer .lockup a:hover {
     display: inline-block;
     margin-bottom: 70px;
     color: #303e49;
-    font-size: 72px;
+    font-size: 15px;
     font-weight: 300;
 }
 

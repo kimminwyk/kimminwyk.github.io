@@ -983,7 +983,7 @@ footer {
 }
 
 footer .lockup {
-    padding: 50px 30px;
+    padding: 30px 40px;
 }
 
 footer .lockup::after {
@@ -1864,7 +1864,7 @@ form label span {
 }
 
 #h_small {
-    height: 170px;
+    height: 90px;
     background: url(../img/galway2.jpg) center center;
     background-size: cover;
 }

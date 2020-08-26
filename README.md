@@ -1,8 +1,7 @@
-=============================
-Sleek Blog
+KimMinWyk Blog
 =============================
 
-[Live Website](http://gearoidoconnor.ie)
+[Blog link](https://kimminwyk.github.io)
 
 
 A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync

@@ -19,8 +19,7 @@ __memory heap__
 
 __memory stack__
 
-```
-~~~objectivec
+```cpp
 
 #### file consloe_test.c
 
@@ -57,27 +56,26 @@ int main()
 
 	printf("type(static int) ->	0x%X\n", &main_variable);
 }
-~~~
-```
 
 ```
-~~~objectivec
+
+```cpp
+
 #### file function.h
 
 int sum(int a, int b)
 {
 	return a + b;
 }
-~~~
-```
 
 ```
-~~~objectivec
+
+```cpp
+
 #### file code.h
 
 #include <stdio.h>
 
 extern int sum(int a, int b);
 
-~~~
 ```

@@ -8,8 +8,8 @@ categories: blog
 #### 메모리 구조는 어떻게 되어있는가?
 
 ![memory](/blog_img/gdb-memory.png)
-
-먼저 크게 메모리 구조에는 code 영역 , 데이터 영역 , 힙 역역 , 스택 영역으로 나뉘어져있다.
+[출저](https://bpsecblog.wordpress.com/2016/03/08/gdb_memory_1/)
+먼저 크게 메모리 구조에는 code 영역 , 데이터 영역 , 힙 역역 , 스택 , 커널 영역으로 나뉘어져있다.
 
 __memory code__
 

@@ -10,12 +10,14 @@
 language color add
 */
 
-.cp{
+.cp, .k{
     color:#ff4545;
 }
+/*
 .k{
     color:#ff4545;
 }
+*/
 .kt{
     color:#00a2ff;
     font-style: italic;
@@ -23,13 +25,15 @@ language color add
 .n{
     color:#3b3b3b;
 }
+/*
 .o{
     color:#000000;
 }
+*/
 .mi{
     color:#ae00ff;
 }
-.p{
+.p, .o{
     color:#000000;
 }
 .nf{

